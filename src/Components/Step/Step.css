@@ -1,0 +1,87 @@
+.step {
+  width: 91px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px;
+}
+
+.status {
+  width: 44px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #EBEBEB;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #A5A5A5;
+
+}
+
+.status h4{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "IRANSans Num";
+}
+
+.complete {
+  background: #20c375;
+  color: #FFFFFF;
+}
+.active {
+  background: #5243c6;
+  color: #FFFFFF;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #C2C2C2;
+}
+.title-complete {
+  color: #222222 !important;
+}
+
+.subtitle {
+  width: 75px;
+  height: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px, 8px;
+  background: transparent;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+  color: #A5A5A5 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle-mid {
+  border: 1px solid #5243c6 !important;
+  color: #5243c6 !important;
+}
+.subtitle-complete {
+  border: 1px solid #20c375 !important;
+  color: #20c375 !important;
+}
+
+/* seperator */
+.separator {
+  width: 218px;
+  height: 2px;
+  background-image: linear-gradient(to right, #dddddd 50%, #fff 0%);
+  background-size: 14px 3px;
+}
+.separator-mid {
+  width: 218px;
+  height: 2px;
+  background-image: linear-gradient(to right, #dddddd 50%, #5243c6 50%);
+  background-size: 211px 100px;
+}
+.separator-complete {
+  width: 218px;
+  height: 2px;
+  border: 1px solid #20c375;
+}
